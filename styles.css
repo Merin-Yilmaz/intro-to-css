@@ -26,17 +26,15 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    text-align: right;
-}
-
 a {
     font-size:x-large;
 }
 
 .favourite-animals {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .animals {
@@ -50,11 +48,26 @@ a {
 
 #favourite-films {
     display: flex;
-    justify-content: left;
+    justify-direcion: column;
+    align-items: center;
 }
 
 #dog {
-    margin-bottom: 20px;
+    text-align: left;
+}
+
+#cat {
+    margin-left: 10px;
+    text-align: left;
+}
+
+#tortoise {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#elephant {
+    margin-left: 30px;
     text-align: left;
 }
 
