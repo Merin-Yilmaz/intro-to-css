@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
+}
+
+#elephant {
+    border-radius: 50%;
+    height: 200px
+}
+
+#breakfast-club-img {
+    border: 5px black dotted;
+    width: 150px;
+    padding: 10px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: right;
+}
+
+a {
+    font-size:x-large;
+}
+
+.favourite-animals {
+    display: flex;
+    justify-content: right;
+}
+
+.animals {
+    color: darkviolet;
+    padding-right: 20px;
+}
+
+.films {
+    color: deeppink;
+}
+
+#favourite-films {
+    display: flex;
+    justify-content: left;
+}
+
+#dog {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: lightgreen;
+    padding: 10px;
+    border: 5px orange solid;
+}
+
+.grid-item {
+    border: 2px solid fuchsia;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#grid-red {
+    background-color: red;
+}
+
+#grid-yellow {
+    background-color: yellow;
+}
+
+#grid-purple {
+    background-color: purple;
+}
+
+#grid-blue {
+    background-color: blue;
+}
